@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { Ilogo } from "../svgs/svgs";
 import { footerQuickLinks } from "@/lib/const";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,11 +12,15 @@ export default function Footer() {
           {/* Logo & Media */}
           <div className="px-4 ">
             <div className="">
-              <Link className="w-fit flex-center" href="/">
-                <Ilogo className="mr-2 size-14 text-primary" />
-                <h1 className="text-lg leading-4 font-semibold">
-                  Blossom <br /> Garden
-                </h1>
+              <Link className="w-fit flex-center gap-2" href="/">
+                <Image
+                  className='size-14'
+                  src="/images/logo/logo.png"
+                  width={200}
+                  height={200}
+                  alt='Logo'
+                />
+                <div className="font-lora text-lg font-bold leading-5">Nahar Ayurvedic <br /> Pharmacy</div>
               </Link>
               <p>Explore a world of elegance and style at BlossomGarden, where passion meets fashion in every curated selection.</p>
             </div>

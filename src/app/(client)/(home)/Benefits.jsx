@@ -12,8 +12,8 @@ export default function Benefits() {
                 <div>
                     <Image
                         className="object-cover object-center rounded-md"
-                        width={1600}
-                        height={900}
+                        width={800}
+                        height={450}
                         src="/images/common/3.jpg"
                         alt="hero"
                     />

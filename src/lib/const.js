@@ -1,8 +1,8 @@
 
 export const siteConfig = {
-  siteTitle: "Starter - Template",
-  siteName: "Starter File",
-  siteDescription: "This is the description for the starter file",
+  siteTitle: "Nahar ayurvedic pharmacy - Ayurvedic medicins for your every problem",
+  siteName: "Nahar ayurvedic pharmacy",
+  siteDescription: "Get your ayurvedic solutions for every health problem",
 }
 
 export const navigationLinks = [
@@ -17,12 +17,12 @@ export const navigationLinks = [
     varient: "ghost"
   },
   {
-    title: "Services",
-    path: "/services",
+    title: "Blogs",
+    path: "/blogs",
     varient: "ghost"
   },
   {
-    title: "About",
+    title: "About Us",
     path: "/about",
     varient: "ghost"
   },

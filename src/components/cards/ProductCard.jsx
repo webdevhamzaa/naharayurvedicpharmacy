@@ -2,9 +2,7 @@ import Image from "next/image";
 
 export default function ProductCard() {
     return (
-        <div
-            className="relative hover:bg-background transition-all border rounded overflow-hidden group"
-        >
+        <div className="relative hover:bg-background transition-all border rounded overflow-hidden group">
             <div className="aspect-square overflow-hidden">
                 <Image
                     className="size-full aspect-squrare object-cover object-center"
