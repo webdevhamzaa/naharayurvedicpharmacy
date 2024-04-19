@@ -11,9 +11,9 @@ export default function Hero({ heading, imageUrl }) {
                 <div className="absolute inset-0 size-full -z-10">
                     <Image
                         className="size-full object-cover object-center"
-                        width={1600}
-                        height={900}
-                        src={imageUrl || "/images/common/2.png"}
+                        width={800}
+                        height={450}
+                        src={"/images/common/2.jpg"}
                         alt="hero"
                     />
                 </div>

@@ -17,7 +17,7 @@ export default function Hero() {
                     className="size-full object-cover object-center"
                     width={1600}
                     height={900}
-                    src="/images/common/2.png"
+                    src="/images/common/2.jpg"
                     alt="hero"
                 />
             </div>
