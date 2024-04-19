@@ -34,6 +34,7 @@ const creditData = [
 export default function Page() {
   return (
     <section>
+      <div className="mt-20 md:mt-0"></div>
       <h1 className="mb-8 text-center">Credits </h1>
 
       <div className="mx-auto w-full md:w-1/2">

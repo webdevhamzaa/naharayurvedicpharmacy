@@ -1,10 +1,14 @@
+"use client"
 import Link from "next/link";
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { Ilogo } from "../svgs/svgs";
 import { footerQuickLinks } from "@/lib/const";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const path = usePathname();
+  if (path.includes("/studio")) return null
   return (
     <footer className="border-t bg-backgroundLight">
       <div className="section md:py-8 lg:py-12 container">

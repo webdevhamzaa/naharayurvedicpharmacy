@@ -11,7 +11,7 @@ import Image from 'next/image';
 export default function Header() {
   const path = usePathname();
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-
+  if (path.includes("/studio")) return null
   return (
     <header className={`fixed  top-0 md:relative px-0 w-full bg-background md:border-none z-[9999] ${isNavbarOpen ? "border-b" : "border-none"}`}>
       <nav className="px-[5%] py-4 w-full grid grid-cols-4 justify-center items-center">

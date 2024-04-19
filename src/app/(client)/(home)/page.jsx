@@ -6,14 +6,17 @@ import Testimonial from "./Testimonial";
 import Contact from "@/components/shared/Contact";
 import Benefits from "./Benefits";
 import LatestProducts from "./LatestProducts";
+import Blogs from "./Blogs";
 
 export default function Home() {
   return (
     <main>
+      <div className="mt-20 md:mt-0"></div>
       <Hero />
       <Featured />
       <Benefits />
       <LatestProducts />
+      <Blogs />
       {/* <About /> */}
       {/* <FAQ /> */}
       <Testimonial />

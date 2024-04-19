@@ -24,7 +24,7 @@ module.exports = {
         'xl': '28px',
         '2xl': '32px',
         '3xl': '36px',
-        'block': '40px',
+        'block': '48px',
       },
       colors: {
         border: "hsl(var(--border))",
@@ -83,5 +83,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require('@tailwindcss/typography'),require("tailwindcss-animate")],
 }

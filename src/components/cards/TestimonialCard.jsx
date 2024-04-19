@@ -13,12 +13,43 @@ export default function TestimonialCard({ data: { testimonialBy, testimonial } }
             />
             <div className="mt-base flex gap-4">
                 <div className="font-semibold ">{testimonialBy}</div>
+                {/* Stars */}
                 <div className="flex gap-1 items-center text-green-600">
-                    <Star className="size-sm" />
-                    <Star className="size-sm" />
-                    <Star className="size-sm" />
-                    <Star className="size-sm" />
-                    <Star className="size-sm" />
+                    <Image
+                        className="size-4"
+                        src="/images/svgs/star.svg"
+                        width={20}
+                        height={20}
+                        alt="star"
+                    />
+                    <Image
+                        className="size-4"
+                        src="/images/svgs/star.svg"
+                        width={20}
+                        height={20}
+                        alt="star"
+                    />
+                    <Image
+                        className="size-4"
+                        src="/images/svgs/star.svg"
+                        width={20}
+                        height={20}
+                        alt="star"
+                    />
+                    <Image
+                        className="size-4"
+                        src="/images/svgs/star.svg"
+                        width={20}
+                        height={20}
+                        alt="star"
+                    />
+                    <Image
+                        className="size-4"
+                        src="/images/svgs/star.svg"
+                        width={20}
+                        height={20}
+                        alt="star"
+                    />
                 </div>
             </div>
             <p className="mt-xs text-sm">{testimonial}</p>

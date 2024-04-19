@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Hero({ heading, imageUrl }) {
     return (
         <>
-            <div className="mt-20 md:mt-0"></div>
             <section>
                 <div className="relative mx-auto md:w-2/3 md:text-center flex-center flex-col z-10">
                     <h1 className="drop-shadow-xl shadow-foreground">{heading || "Heading"}</h1>
