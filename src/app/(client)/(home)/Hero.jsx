@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section>
+        <section className="header-space">
             <div className="relative mx-auto md:w-2/3 md:text-center flex-center flex-col z-10">
                 <h1 className="drop-shadow-xl shadow-foreground">We sell Ayurvedic Medicines</h1>
                 <p className="mt-base text-foreground text-lg">Discover the power of ancient wisdom and modern wellness with our range of Ayurvedic products and services.</p>

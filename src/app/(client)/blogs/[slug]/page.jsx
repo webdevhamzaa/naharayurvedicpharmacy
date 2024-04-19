@@ -20,7 +20,6 @@ export default async function page({ params: { slug } }) {
 
     return (
         <main>
-            <div className="mt-20 md:mt-0"></div>
             <BlogDetails data={blogData} />
             <OtherBlogs data={blogs} />
         </main>

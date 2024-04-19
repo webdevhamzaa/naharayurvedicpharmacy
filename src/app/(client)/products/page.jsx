@@ -1,9 +1,11 @@
+import Hero from "@/components/shared/Hero";
+import Products from "./Products";
 
 export default function page() {
   return (
     <main>
-      <div className="mt-20 md:mt-0"></div>
-
+      <Hero heading="Our Products" />
+      <Products />
     </main>
   )
 }

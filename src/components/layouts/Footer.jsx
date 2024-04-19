@@ -26,7 +26,7 @@ export default function Footer() {
                 />
                 <div className="font-lora text-lg font-bold leading-5">Nahar Ayurvedic <br /> Pharmacy</div>
               </Link>
-              <p>Explore a world of elegance and style at BlossomGarden, where passion meets fashion in every curated selection.</p>
+              <p className="text-sm">Explore a world of elegDiscover the power of ancient wisdom and modern wellness with our range of Ayurvedic products and services.</p>
             </div>
 
             <div className="mt-base flex gap-2">

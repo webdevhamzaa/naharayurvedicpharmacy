@@ -13,7 +13,6 @@ export default async function page() {
 
   return (
     <main>
-      <div className="mt-20 md:mt-0"></div>
       <Hero heading="Blogs" />
       <Blogs data={blogs} />
     </main>

@@ -9,14 +9,14 @@ const creditData = [
         title: "pexels",
         link: "https://www.pexels.com/"
       },
-      // {
-      //   title: "unsplash",
-      //   link: "https://unsplash.com/"
-      // },
-      // {
-      //   title: "pixabay",
-      //   link: "https://pixabay.com/"
-      // },
+      {
+        title: "unsplash",
+        link: "https://unsplash.com/"
+      },
+      {
+        title: "pixabay",
+        link: "https://pixabay.com/"
+      },
     ]
   },
   // {
