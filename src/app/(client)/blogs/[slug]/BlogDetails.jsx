@@ -30,7 +30,7 @@ const myPortableTextComponents = {
 
 export default function BlogDetails({ data: { id, title, content } }) {
     return (
-        <section className='header-space'>
+        <section>
             <div className="">
                 <article className='mx-auto prose'>
                     <h1 className="text-3xl">{title}</h1>

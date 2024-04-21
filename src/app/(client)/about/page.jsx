@@ -4,10 +4,16 @@ import BehindTheScene from "./BehindTheScene";
 import History from "./History";
 import Overview from "./Overview";
 import Team from "./Team";
+import { siteAboutPageDescription, siteAboutPageTitle } from "@/lib/config/siteConfig";
+
+export const metadata = {
+  title: siteAboutPageTitle,
+  description: siteAboutPageDescription
+}
 
 export default function page() {
   return (
-    <main>
+    <main className="header-space">
       <Hero heading={<span>About <br /> Nahar Ayurvedic Pharmacy</span>} />
       <Overview />
       <History />

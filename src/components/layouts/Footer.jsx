@@ -19,14 +19,14 @@ export default function Footer() {
               <Link className="w-fit flex-center gap-2" href="/">
                 <Image
                   className='size-14'
-                  src="/images/logo/logo.png"
-                  width={200}
-                  height={200}
-                  alt='Logo'
+                  src="/images/logo/nahar-ayurvedic-pharmacy-logo.svg"
+                  width={100}
+                  height={100}
+                  alt='Brand Logo'
                 />
                 <div className="font-lora text-lg font-bold leading-5">Nahar Ayurvedic <br /> Pharmacy</div>
               </Link>
-              <p className="text-sm">Explore a world of elegDiscover the power of ancient wisdom and modern wellness with our range of Ayurvedic products and services.</p>
+              <p className="mt-1 text-sm">Explore a world of elegance. Discover the power of ancient wisdom and modern wellness with our range of Ayurvedic products and services.</p>
             </div>
 
             <div className="mt-base flex gap-2">
@@ -90,7 +90,10 @@ export default function Footer() {
       </div>
 
       <p className="py-block text-muted-foreground text-sm text-center border-t">
-        &copy;Copyright-2024 / <Link className="hover:underline" href="/credits"> Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/" target="_blank"> webdevsalmann</Link> 💖
+        &copy;Copyright-2024 / 
+        <Link className="hover:underline" href="/credits"> Credits </Link> / 
+        <Link className="hover:underline" href="/legal"> Legal </Link>
+         / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/" target="_blank"> webdevsalmann</Link> 💖
       </p>
     </footer>
   )

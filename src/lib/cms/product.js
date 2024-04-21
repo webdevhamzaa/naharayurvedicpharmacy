@@ -7,7 +7,7 @@ export const products = [
         description: "Triphala Churna is a traditional Ayurvedic herbal formulation consisting of three fruits: Amalaki, Bibhitaki, and Haritaki. It is known for its rejuvenating and cleansing properties, promoting overall health and well-being.",
         ingredients: "Amalaki (Emblica officinalis), Bibhitaki (Terminalia bellirica), Haritaki (Terminalia chebula)",
         usage: "Take 1-2 teaspoons of Triphala Churna with warm water before bedtime.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "powder",
         SKU: "TPC123",
         stock: 50
@@ -20,7 +20,7 @@ export const products = [
         description: "Brahmi Oil is a traditional Ayurvedic herbal oil infused with Brahmi (Bacopa monnieri), a revered herb known for its ability to enhance cognitive function and promote hair health. It deeply nourishes the scalp and hair follicles, promoting strong and healthy hair growth.",
         ingredients: "Sesame oil, Brahmi (Bacopa monnieri)",
         usage: "Massage Brahmi Oil into the scalp and hair roots, leave it on for at least 30 minutes before washing off.",
-        price: "$19.99",
+        price: "₹19.99",
         category: "oil",
         SKU: "BO456",
         stock: 30
@@ -33,7 +33,7 @@ export const products = [
         description: "Ashwagandha Capsules contain pure Ashwagandha (Withania somnifera) extract, a powerful adaptogen that helps the body adapt to stress and promotes physical and mental well-being. It provides a natural energy boost and supports optimal vitality.",
         ingredients: "Ashwagandha (Withania somnifera) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$24.99",
+        price: "₹24.99",
         category: "medicine",
         SKU: "AC789",
         stock: 20
@@ -46,7 +46,7 @@ export const products = [
         description: "Neem Oil is a potent Ayurvedic oil derived from the seeds of the Neem tree (Azadirachta indica). It is renowned for its antiseptic, anti-inflammatory, and moisturizing properties, making it an excellent choice for skin care. Neem Oil helps maintain clear and healthy skin while soothing irritation and promoting natural healing processes.",
         ingredients: "Neem oil (Azadirachta indica)",
         usage: "Apply Neem Oil directly to the affected area or mix with a carrier oil for massage.",
-        price: "$12.99",
+        price: "₹12.99",
         category: "oil",
         SKU: "NO567",
         stock: 40
@@ -59,7 +59,7 @@ export const products = [
         description: "Turmeric Capsules contain high-quality Turmeric (Curcuma longa) extract standardized to provide optimal levels of curcuminoids, the active compounds responsible for its health benefits. Turmeric is a powerful antioxidant and anti-inflammatory herb that supports joint mobility, immune function, and digestive health.",
         ingredients: "Turmeric (Curcuma longa) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$16.99",
+        price: "₹16.99",
         category: "medicine",
         SKU: "TC234",
         stock: 25
@@ -72,7 +72,7 @@ export const products = [
         description: "Triphala Guggulu is a classic Ayurvedic formulation combining Triphala (a blend of three fruits) with Guggulu (Commiphora mukul resin). It is traditionally used to support healthy weight management, promote detoxification, and aid digestion. Triphala Guggulu helps maintain balanced metabolism and supports overall well-being.",
         ingredients: "Triphala (blend of Amalaki, Bibhitaki, Haritaki), Guggulu (Commiphora mukul resin)",
         usage: "Take 1-2 tablets twice daily with warm water, preferably after meals.",
-        price: "$29.99",
+        price: "₹29.99",
         category: "medicine",
         SKU: "TGG901",
         stock: 15
@@ -85,7 +85,7 @@ export const products = [
         description: "Shatavari Powder is a rejuvenating Ayurvedic herb known for its nourishing and balancing properties, particularly for the female reproductive system. It supports hormonal balance, promotes healthy menstruation, and enhances vitality and energy levels. Shatavari Powder is a versatile herb that can be added to beverages or recipes for daily wellness support.",
         ingredients: "Shatavari (Asparagus racemosus) root powder",
         usage: "Mix 1-2 teaspoons of Shatavari Powder with warm water or milk, once or twice daily.",
-        price: "$21.99",
+        price: "₹21.99",
         category: "powder",
         SKU: "SP345",
         stock: 35
@@ -98,7 +98,7 @@ export const products = [
         description: "Trikatu Capsules contain a blend of three pungent herbs: Ginger, Black Pepper, and Long Pepper. This traditional Ayurvedic formulation is renowned for its digestive, metabolic, and respiratory-supporting properties. Trikatu helps stimulate digestion, enhance nutrient absorption, and support respiratory function, making it an invaluable addition to your wellness routine.",
         ingredients: "Ginger (Zingiber officinale), Black Pepper (Piper nigrum), Long Pepper (Piper longum)",
         usage: "Take 1-2 capsules before meals with water.",
-        price: "$18.99",
+        price: "₹18.99",
         category: "medicine",
         SKU: "TC789",
         stock: 20
@@ -111,7 +111,7 @@ export const products = [
         description: "Bhringraj Hair Oil is a traditional Ayurvedic oil infused with Bhringraj (Eclipta alba), a potent herb known for its hair-strengthening and rejuvenating properties. It nourishes the scalp, strengthens hair follicles, and promotes healthy hair growth. Bhringraj Hair Oil helps restore shine, thickness, and vitality to your locks, naturally.",
         ingredients: "Coconut oil, Bhringraj (Eclipta alba) extract",
         usage: "Massage Bhringraj Hair Oil into the scalp and hair roots, leave it on for at least 30 minutes before washing off.",
-        price: "$16.99",
+        price: "₹16.99",
         category: "oil",
         SKU: "BHO567",
         stock: 30
@@ -124,7 +124,7 @@ export const products = [
         description: "Guduchi Capsules contain pure Guduchi (Tinospora cordifolia) extract, a renowned Ayurvedic herb known for its immune-boosting and detoxifying properties. Guduchi, also known as 'Amrita' or the 'Divine Nectar,' supports the body's natural defenses, promotes detoxification, and enhances overall vitality and well-being.",
         ingredients: "Guduchi (Tinospora cordifolia) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$22.99",
+        price: "₹22.99",
         category: "medicine",
         SKU: "GC123",
         stock: 25
@@ -137,7 +137,7 @@ export const products = [
         description: "Amla Hair Mask is a nourishing Ayurvedic hair treatment enriched with Amla (Indian Gooseberry), a potent source of vitamin C and antioxidants. This rejuvenating hair mask strengthens the hair shaft, reduces hair fall, and adds shine and luster to dull, lifeless hair. Amla Hair Mask is a natural solution for promoting healthy, vibrant hair.",
         ingredients: "Amla (Emblica officinalis) powder, Yogurt, Honey, Coconut oil",
         usage: "Apply Amla Hair Mask to clean, damp hair, leave it on for 30-45 minutes, then rinse thoroughly with water.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "powder",
         SKU: "AHM456",
         stock: 30
@@ -150,7 +150,7 @@ export const products = [
         description: "Tulsi Tea is a refreshing and aromatic herbal tea made from Tulsi (Holy Basil), a sacred herb revered in Ayurveda for its numerous health benefits. This invigorating tea boosts immunity, relieves stress, and supports respiratory health. Tulsi Tea is an excellent way to relax and rejuvenate the body and mind.",
         ingredients: "Tulsi (Ocimum sanctum) leaves",
         usage: "Steep 1-2 teaspoons of Tulsi Tea leaves in hot water for 5-10 minutes, strain, and enjoy.",
-        price: "$9.99",
+        price: "₹9.99",
         category: "tea",
         SKU: "TT789",
         stock: 35
@@ -163,7 +163,7 @@ export const products = [
         description: "Arjuna Capsules contain pure Arjuna (Terminalia arjuna) extract, a revered Ayurvedic herb known for its beneficial effects on the cardiovascular system. Arjuna supports heart health, promotes healthy blood pressure levels, and improves overall cardiovascular function. It is an essential herb for maintaining a healthy heart and circulatory system.",
         ingredients: "Arjuna (Terminalia arjuna) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$19.99",
+        price: "₹19.99",
         category: "medicine",
         SKU: "AC789",
         stock: 20
@@ -176,7 +176,7 @@ export const products = [
         description: "Sandalwood Face Pack is a rejuvenating Ayurvedic skincare treatment enriched with pure Sandalwood powder and other herbal ingredients. It soothes and nourishes the skin, reduces blemishes and acne, and promotes a radiant complexion. Sandalwood Face Pack is a natural solution for achieving clear, glowing skin.",
         ingredients: "Sandalwood (Santalum album) powder, Multani Mitti (Fuller's Earth), Rose water, Turmeric (Curcuma longa) powder",
         usage: "Apply Sandalwood Face Pack evenly to clean, damp skin, leave it on for 15-20 minutes, then rinse off with water.",
-        price: "$16.99",
+        price: "₹16.99",
         category: "powder",
         SKU: "SFP567",
         stock: 25
@@ -189,7 +189,7 @@ export const products = [
         description: "Ashwagandha Ghee is a nourishing Ayurvedic preparation combining the benefits of Ashwagandha (Withania somnifera) and ghee (clarified butter). It promotes vitality, supports stress management, and enhances brain function. Ashwagandha Ghee is a delicious and convenient way to incorporate the rejuvenating properties of Ashwagandha into your daily routine.",
         ingredients: "Ashwagandha (Withania somnifera) powder, Ghee (clarified butter)",
         usage: "Take 1-2 teaspoons of Ashwagandha Ghee daily, preferably with warm milk or water.",
-        price: "$29.99",
+        price: "₹29.99",
         category: "ghee",
         SKU: "AGH901",
         stock: 15
@@ -202,7 +202,7 @@ export const products = [
         description: "Ashoka Capsules contain pure Ashoka (Saraca indica) extract, a revered Ayurvedic herb known for its beneficial effects on female reproductive health. Ashoka supports a healthy menstrual cycle, regulates hormonal balance, and relieves menstrual discomfort. It is an essential supplement for women's well-being.",
         ingredients: "Ashoka (Saraca indica) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$22.99",
+        price: "₹22.99",
         category: "medicine",
         SKU: "AC123",
         stock: 30
@@ -215,7 +215,7 @@ export const products = [
         description: "Mahanarayan Oil is a traditional Ayurvedic oil blend enriched with potent herbs and oils like Ashwagandha, Shatavari, and Sesame oil. It penetrates deeply into the muscles and joints, providing soothing relief and promoting flexibility. Mahanarayan Oil is an excellent choice for supporting overall joint health and mobility.",
         ingredients: "Ashwagandha (Withania somnifera) extract, Shatavari (Asparagus racemosus) extract, Sesame oil",
         usage: "Warm Mahanarayan Oil and massage it into the affected muscles and joints, leave it on for at least 30 minutes before bathing.",
-        price: "$18.99",
+        price: "₹18.99",
         category: "oil",
         SKU: "MO456",
         stock: 25
@@ -228,7 +228,7 @@ export const products = [
         description: "Digestive Tea is a soothing and aromatic blend of Ayurvedic herbs like Cumin, Coriander, and Fennel. This herbal tea promotes healthy digestion, relieves bloating and gas, and supports optimal liver function. Digestive Tea is a delicious and natural way to support your digestive health after meals.",
         ingredients: "Cumin (Cuminum cyminum) seeds, Coriander (Coriandrum sativum) seeds, Fennel (Foeniculum vulgare) seeds",
         usage: "Steep 1-2 teaspoons of Digestive Tea blend in hot water for 5-10 minutes, strain, and enjoy after meals.",
-        price: "$12.99",
+        price: "₹12.99",
         category: "tea",
         SKU: "DT789",
         stock: 35
@@ -241,7 +241,7 @@ export const products = [
         description: "Brahmi Capsules contain pure Brahmi (Bacopa monnieri) extract, a renowned Ayurvedic herb known for its cognitive-enhancing properties. Brahmi supports healthy brain function, enhances memory and concentration, and promotes mental clarity. It is a valuable supplement for maintaining cognitive health and vitality.",
         ingredients: "Brahmi (Bacopa monnieri) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$24.99",
+        price: "₹24.99",
         category: "medicine",
         SKU: "BC123",
         stock: 30
@@ -254,7 +254,7 @@ export const products = [
         description: "Chyawanprash is a traditional Ayurvedic tonic jam made from a blend of herbs, spices, and honey. It is rich in antioxidants, vitamins, and minerals that help boost immunity, support respiratory health, and promote overall vitality and well-being. Chyawanprash is a rejuvenating formula suitable for all ages.",
         ingredients: "Amla (Indian Gooseberry), Ghee (clarified butter), Honey, Herbs and spices",
         usage: "Take 1-2 teaspoons of Chyawanprash daily, preferably in the morning on an empty stomach or as directed by a healthcare practitioner.",
-        price: "$29.99",
+        price: "₹29.99",
         category: "jam",
         SKU: "CP567",
         stock: 25
@@ -267,7 +267,7 @@ export const products = [
         description: "Triphala Eye Wash is a gentle and soothing Ayurvedic eye wash solution made from Triphala (a blend of three fruits) and purified water. It helps soothe tired eyes, reduce eye strain, and promote overall eye health. Triphala Eye Wash is a natural solution for maintaining clear and bright eyes.",
         ingredients: "Triphala (blend of Amalaki, Bibhitaki, Haritaki), Purified water",
         usage: "Rinse the eyes with Triphala Eye Wash solution using an eye cup or dropper, 2-3 times a day or as needed.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "eye care",
         SKU: "TEW789",
         stock: 20
@@ -280,7 +280,7 @@ export const products = [
         description: "Trikatu Churna is a potent Ayurvedic herbal blend consisting of three spices: Ginger, Black Pepper, and Long Pepper. It is renowned for its digestive-stimulating properties, supporting healthy digestion, metabolism, and weight management. Trikatu Churna helps ignite the digestive fire and promotes overall well-being.",
         ingredients: "Ginger (Zingiber officinale), Black Pepper (Piper nigrum), Long Pepper (Piper longum)",
         usage: "Mix 1/4 to 1/2 teaspoon of Trikatu Churna with warm water and consume before meals, twice daily.",
-        price: "$12.99",
+        price: "₹12.99",
         category: "powder",
         SKU: "TCC123",
         stock: 40
@@ -293,7 +293,7 @@ export const products = [
         description: "Mucuna Pruriens Capsules contain pure Mucuna Pruriens extract, a potent Ayurvedic herb known for its mood-balancing and cognitive-enhancing properties. Mucuna Pruriens supports healthy dopamine levels in the brain, promoting a positive mood, cognitive function, and overall vitality. It is a natural solution for maintaining mental and emotional well-being.",
         ingredients: "Mucuna Pruriens (Velvet Bean) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$29.99",
+        price: "₹29.99",
         category: "medicine",
         SKU: "MPC456",
         stock: 30
@@ -306,7 +306,7 @@ export const products = [
         description: "Bilva Powder is derived from the Bilva (Aegle marmelos) fruit, a revered Ayurvedic herb known for its beneficial effects on digestive health. It helps soothe the digestive system, relieve gastric discomfort, and promote bowel regularity. Bilva Powder is a natural solution for maintaining optimal digestive function.",
         ingredients: "Bilva (Aegle marmelos) fruit powder",
         usage: "Mix 1/2 to 1 teaspoon of Bilva Powder with warm water and consume after meals, twice daily.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "powder",
         SKU: "BP789",
         stock: 35
@@ -319,7 +319,7 @@ export const products = [
         description: "Ashoka Bark Powder is derived from the bark of the Ashoka tree (Saraca asoca), a revered Ayurvedic herb for women's health. It helps regulate the menstrual cycle, alleviate menstrual discomfort, and promote overall well-being. Ashoka Bark Powder is a natural and effective supplement for women's reproductive health.",
         ingredients: "Ashoka (Saraca asoca) bark powder",
         usage: "Mix 1-2 teaspoons of Ashoka Bark Powder with warm water or honey, once daily.",
-        price: "$16.99",
+        price: "₹16.99",
         category: "powder",
         SKU: "ABP456",
         stock: 25
@@ -332,7 +332,7 @@ export const products = [
         description: "Kutki Capsules contain pure Kutki (Picrorhiza kurroa) extract, a potent Ayurvedic herb known for its beneficial effects on liver health and digestion. Kutki supports liver function, promotes detoxification, and aids digestion. It is an essential supplement for maintaining optimal liver health and overall well-being.",
         ingredients: "Kutki (Picrorhiza kurroa) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$21.99",
+        price: "₹21.99",
         category: "medicine",
         SKU: "KC789",
         stock: 20
@@ -345,7 +345,7 @@ export const products = [
         description: "Triphala Juice is a potent Ayurvedic formulation made from a blend of three fruits: Amalaki, Bibhitaki, and Haritaki. It supports digestive health, promotes detoxification, and enhances nutrient absorption. Triphala Juice is a convenient and refreshing way to incorporate the benefits of Triphala into your daily routine.",
         ingredients: "Amalaki (Emblica officinalis) juice, Bibhitaki (Terminalia bellirica) juice, Haritaki (Terminalia chebula) juice",
         usage: "Take 20-30ml of Triphala Juice mixed with an equal amount of water, preferably in the morning on an empty stomach.",
-        price: "$19.99",
+        price: "₹19.99",
         category: "juice",
         SKU: "TJ901",
         stock: 15
@@ -358,7 +358,7 @@ export const products = [
         description: "Shankhpushpi Syrup is a traditional Ayurvedic formulation containing Shankhpushpi (Convolvulus pluricaulis) and other herbs known for their cognitive-enhancing and stress-relieving properties. It helps enhance memory and concentration, promote overall cognitive function, and relieve stress and anxiety. Shankhpushpi Syrup is a natural tonic for the mind and nervous system.",
         ingredients: "Shankhpushpi (Convolvulus pluricaulis) extract, Brahmi (Bacopa monnieri) extract, Ashwagandha (Withania somnifera) extract",
         usage: "Take 1-2 teaspoons of Shankhpushpi Syrup twice daily, preferably with water.",
-        price: "$26.99",
+        price: "₹26.99",
         category: "syrup",
         SKU: "SS123",
         stock: 30
@@ -371,7 +371,7 @@ export const products = [
         description: "Boswellia Capsules contain pure Boswellia serrata extract, a potent Ayurvedic herb known for its anti-inflammatory and joint-supporting properties. Boswellia supports joint health, reduces inflammation, and promotes mobility and flexibility. It is an essential supplement for those seeking natural relief from joint discomfort.",
         ingredients: "Boswellia serrata extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$23.99",
+        price: "₹23.99",
         category: "medicine",
         SKU: "BC456",
         stock: 25
@@ -384,7 +384,7 @@ export const products = [
         description: "Brahmi Ghee is a nourishing Ayurvedic preparation combining the benefits of Brahmi (Bacopa monnieri) and ghee (clarified butter). It promotes mental clarity, supports optimal brain function, and enhances memory and cognitive function. Brahmi Ghee is a delicious and convenient way to nourish the mind and enhance mental well-being.",
         ingredients: "Brahmi (Bacopa monnieri) powder, Ghee (clarified butter)",
         usage: "Take 1-2 teaspoons of Brahmi Ghee daily, preferably with warm milk or water.",
-        price: "$28.99",
+        price: "₹28.99",
         category: "ghee",
         SKU: "BG789",
         stock: 20
@@ -397,7 +397,7 @@ export const products = [
         description: "Neem Capsules contain pure Neem (Azadirachta indica) extract, a potent Ayurvedic herb known for its beneficial effects on skin health and immune function. Neem supports clear and healthy skin, promotes detoxification, and boosts immune function. It is an essential supplement for maintaining overall well-being.",
         ingredients: "Neem (Azadirachta indica) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$20.99",
+        price: "₹20.99",
         category: "medicine",
         SKU: "NC789",
         stock: 30
@@ -410,7 +410,7 @@ export const products = [
         description: "Turmeric Paste is a traditional Ayurvedic preparation made from pure Turmeric (Curcuma longa) powder and other herbs. It is known for its potent anti-inflammatory and antioxidant properties, supporting joint health, and overall well-being. Turmeric Paste is a versatile and effective remedy for various health concerns.",
         ingredients: "Turmeric (Curcuma longa) powder, Black pepper, Coconut oil",
         usage: "Consume 1 teaspoon of Turmeric Paste daily, mixed with warm milk or water, or use topically as needed.",
-        price: "$17.99",
+        price: "₹17.99",
         category: "paste",
         SKU: "TP456",
         stock: 25
@@ -423,7 +423,7 @@ export const products = [
         description: "Triphala Tablets contain a blend of three fruits: Amalaki, Bibhitaki, and Haritaki, known as Triphala, revered in Ayurveda for its digestive and detoxifying properties. Triphala promotes digestive health, supports detoxification, and aids in maintaining regular bowel movements. Triphala Tablets are convenient for daily use and promote overall well-being.",
         ingredients: "Amalaki (Emblica officinalis), Bibhitaki (Terminalia bellirica), Haritaki (Terminalia chebula)",
         usage: "Take 1-2 tablets daily with water, preferably before meals.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "tablets",
         SKU: "TT901",
         stock: 35
@@ -436,7 +436,7 @@ export const products = [
         description: "Triphala Churna is a classic Ayurvedic herbal blend consisting of three fruits: Amalaki, Bibhitaki, and Haritaki. It is renowned for its ability to support digestive health, promote detoxification, and aid in weight management. Triphala Churna is a gentle yet effective formula suitable for daily use.",
         ingredients: "Amalaki (Emblica officinalis), Bibhitaki (Terminalia bellirica), Haritaki (Terminalia chebula)",
         usage: "Mix 1-2 teaspoons of Triphala Churna with warm water or honey, preferably before bedtime.",
-        price: "$11.99",
+        price: "₹11.99",
         category: "powder",
         SKU: "TC567",
         stock: 30
@@ -449,7 +449,7 @@ export const products = [
         description: "Bhringraj Oil is a traditional Ayurvedic hair oil infused with Bhringraj (Eclipta prostrata) and other herbs known for their nourishing properties. It deeply penetrates the scalp, nourishing the hair follicles, and promoting hair growth. Bhringraj Oil also helps reduce hair fall and strengthens the hair from the roots, leaving it healthy and lustrous.",
         ingredients: "Bhringraj (Eclipta prostrata) extract, Coconut oil, Sesame oil",
         usage: "Apply Bhringraj Oil to the scalp and hair, massage gently, and leave it on for at least 1-2 hours or overnight before washing off.",
-        price: "$15.99",
+        price: "₹15.99",
         category: "oil",
         SKU: "BO789",
         stock: 25
@@ -462,7 +462,7 @@ export const products = [
         description: "Triphala Guggulu is a traditional Ayurvedic formulation combining Triphala with Guggulu resin, known for its beneficial effects on joint health and metabolism. It supports healthy joint function, aids in weight management, and promotes detoxification of the body. Triphala Guggulu is a potent formula for maintaining overall health and well-being.",
         ingredients: "Triphala (Amalaki, Bibhitaki, Haritaki), Guggulu (Commiphora mukul)",
         usage: "Take 1-2 tablets of Triphala Guggulu twice daily with warm water, preferably after meals.",
-        price: "$19.99",
+        price: "₹19.99",
         category: "tablets",
         SKU: "TG901",
         stock: 20
@@ -475,7 +475,7 @@ export const products = [
         description: "Amalaki Rasayana is a powerful Ayurvedic rejuvenating formula made from Amalaki (Indian Gooseberry) and other herbs. It is rich in antioxidants and vitamin C, which help rejuvenate the body, boost immunity, and support digestive health. Amalaki Rasayana is an excellent daily tonic for overall well-being.",
         ingredients: "Amalaki (Emblica officinalis) extract, Sugar, Honey",
         usage: "Take 1-2 teaspoons of Amalaki Rasayana daily, preferably in the morning on an empty stomach.",
-        price: "$27.99",
+        price: "₹27.99",
         category: "rasayana",
         SKU: "AR123",
         stock: 30
@@ -488,7 +488,7 @@ export const products = [
         description: "Gokshura Capsules contain pure Gokshura (Tribulus terrestris) extract, a renowned Ayurvedic herb known for its beneficial effects on urinary and reproductive health. Gokshura supports urinary health, promotes kidney function, and aids in maintaining reproductive health. It is an essential supplement for both men and women.",
         ingredients: "Gokshura (Tribulus terrestris) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$22.99",
+        price: "₹22.99",
         category: "medicine",
         SKU: "GC456",
         stock: 25
@@ -501,7 +501,7 @@ export const products = [
         description: "Brahmi Hair Oil is a nourishing Ayurvedic oil blend enriched with Brahmi (Bacopa monnieri) and other herbs known for their hair-strengthening properties. It nourishes the scalp, promotes hair growth, and reduces dandruff and scalp irritation. Brahmi Hair Oil is suitable for all hair types and helps maintain healthy and lustrous hair.",
         ingredients: "Brahmi (Bacopa monnieri) extract, Coconut oil, Sesame oil",
         usage: "Massage Brahmi Hair Oil into the scalp and hair, leave it on for at least 1-2 hours or overnight, then wash off with a mild shampoo.",
-        price: "$18.99",
+        price: "₹18.99",
         category: "hair oil",
         SKU: "BHO789",
         stock: 20
@@ -514,7 +514,7 @@ export const products = [
         description: "Shatavari Powder is a revered Ayurvedic herb known for its beneficial effects on female reproductive health. It helps balance hormones, support the female reproductive system, and promote lactation in nursing mothers. Shatavari Powder is a natural and effective supplement for women's well-being.",
         ingredients: "Shatavari (Asparagus racemosus) root powder",
         usage: "Mix 1-2 teaspoons of Shatavari Powder with warm milk or water, preferably twice daily.",
-        price: "$25.99",
+        price: "₹25.99",
         category: "powder",
         SKU: "SP567",
         stock: 30
@@ -527,7 +527,7 @@ export const products = [
         description: "Arjuna Capsules contain pure Arjuna (Terminalia arjuna) extract, a potent Ayurvedic herb known for its beneficial effects on heart health. Arjuna supports cardiovascular function, strengthens the heart muscles, and promotes healthy blood pressure levels. It is an essential supplement for maintaining a healthy heart.",
         ingredients: "Arjuna (Terminalia arjuna) extract",
         usage: "Take 1-2 capsules daily with water, preferably with meals.",
-        price: "$20.99",
+        price: "₹20.99",
         category: "medicine",
         SKU: "AC901",
         stock: 25
@@ -540,7 +540,7 @@ export const products = [
         description: "Dashmool Kwath is a traditional Ayurvedic decoction made from a blend of ten roots, known as Dashmool. It supports respiratory health, relieves cough and congestion, and promotes healthy lung function. Dashmool Kwath is a natural remedy for maintaining clear and healthy respiratory passages.",
         ingredients: "Dashmool (blend of ten roots)",
         usage: "Boil 1-2 teaspoons of Dashmool Kwath in water until reduced to half, strain, and consume warm. Repeat 2-3 times daily as needed.",
-        price: "$16.99",
+        price: "₹16.99",
         category: "kwath",
         SKU: "DK234",
         stock: 20
@@ -553,7 +553,7 @@ export const products = [
         description: "Giloy Ghanvati contains pure Giloy (Tinospora cordifolia) extract, a potent Ayurvedic herb known for its immune-boosting and fever-reducing properties. Giloy helps strengthen the immune system, aids in managing fever, and supports respiratory health. Giloy Ghanvati is an essential supplement for overall well-being, especially during seasonal changes.",
         ingredients: "Giloy (Tinospora cordifolia) extract",
         usage: "Take 1-2 tablets of Giloy Ghanvati twice daily with water, preferably after meals.",
-        price: "$18.99",
+        price: "₹18.99",
         category: "tablets",
         SKU: "GG567",
         stock: 30
@@ -566,7 +566,7 @@ export const products = [
         description: "Ashwagandha Churna is a potent Ayurvedic herb known as an adaptogen, helping the body adapt to stress and promoting overall vitality and strength. It reduces stress and anxiety, supports adrenal health, and enhances energy levels. Ashwagandha Churna is an essential supplement for managing modern-day stress and maintaining optimal well-being.",
         ingredients: "Ashwagandha (Withania somnifera) root powder",
         usage: "Mix 1-2 teaspoons of Ashwagandha Churna with warm milk or water, preferably before bedtime.",
-        price: "$14.99",
+        price: "₹14.99",
         category: "powder",
         SKU: "AC789",
         stock: 25
@@ -579,7 +579,7 @@ export const products = [
         description: "Tulsi Drops are concentrated extracts of Tulsi (Holy Basil), a revered Ayurvedic herb known for its immune-boosting, respiratory-supporting, and stress-relieving properties. Tulsi helps boost immunity, support respiratory health, and relieve stress and anxiety. Tulsi Drops are a convenient and potent way to incorporate the benefits of Tulsi into your daily routine.",
         ingredients: "Tulsi (Holy Basil) extract",
         usage: "Add 2-3 drops of Tulsi Drops to a glass of water or tea, 2-3 times daily, or as directed by a healthcare practitioner.",
-        price: "$12.99",
+        price: "₹12.99",
         category: "drops",
         SKU: "TD901",
         stock: 20

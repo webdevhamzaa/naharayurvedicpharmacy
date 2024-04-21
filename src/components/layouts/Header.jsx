@@ -13,17 +13,17 @@ export default function Header() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   if (path.includes("/studio")) return null
   return (
-    <header className={`fixed  top-0 md:relative px-0 w-full bg-background md:border-none z-[9999] ${isNavbarOpen ? "border-b" : "border-none"}`}>
+    <header className={`fixed  top-0 md:relative px-0 w-full bg-background md:border-none z-[9999] shadow-md md:shadow-sm ${isNavbarOpen ? "border-b" : "border-none"}`}>
       <nav className="px-[5%] py-4 w-full grid grid-cols-4 justify-center items-center">
 
         {/* Logo */}
         <Link className="w-fit flex-center gap-2 col-span-3" href="/">
           <Image
             className='size-14'
-            src="/images/logo/logo.png"
-            width={200}
-            height={200}
-            alt='Logo'
+            src="/images/logo/nahar-ayurvedic-pharmacy-logo.svg"
+            width={100}
+            height={100}
+            alt='Brand Logo'
           />
           <div className="font-lora text-lg font-bold leading-5">Nahar Ayurvedic <br /> Pharmacy</div>
         </Link>

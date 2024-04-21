@@ -1,11 +1,12 @@
 import Image from "next/image";
 
-export default function Hero({ heading, imageUrl }) {
+export default function Hero({ heading, paragraph, imageUrl }) {
     return (
         <>
-            <section className="header-space">
-                <div className="relative mx-auto md:w-2/3 md:text-center flex-center flex-col z-10">
+            <section>
+                <div className="relative mx-auto md:w-2/3 text-center flex-center flex-col z-10">
                     <h1 className="drop-shadow-xl shadow-foreground">{heading || "Heading"}</h1>
+                    {paragraph && <p className="mt-base text-xl text-foreground">{paragraph}</p>}
                 </div>
 
                 <div className="absolute inset-0 size-full -z-10">
@@ -14,7 +15,7 @@ export default function Hero({ heading, imageUrl }) {
                         width={800}
                         height={450}
                         src={"/images/common/2.jpg"}
-                        alt="hero"
+                        alt="Page Banner Image"
                     />
                 </div>
             </section>

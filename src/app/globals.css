@@ -70,7 +70,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Lora", serif;
+    font-family: var(--font-lora);
   }
 
   h1 {
@@ -107,10 +107,10 @@
   }
 
   .header-space{
-    @apply mt-20 md:mt-0;
+    @apply mt-[85px] md:mt-0;
   }
 
   .font-lora {
-    font-family: "Lora", serif;
+    font-family: var(--font-lora);
   }
 }

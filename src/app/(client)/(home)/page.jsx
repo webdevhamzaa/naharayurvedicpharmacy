@@ -10,7 +10,7 @@ import Blogs from "./Blogs";
 
 export default function Home() {
   return (
-    <main>
+    <main className="header-space">
       <Hero />
       <Featured />
       <Benefits />

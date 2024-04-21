@@ -33,26 +33,27 @@ const creditData = [
 
 export default function Page() {
   return (
-    <section>
-      <div className="mt-20 md:mt-0"></div>
-      <h1 className="mb-8 text-center">Credits </h1>
-
-      <div className="mx-auto w-full md:w-1/2">
-        {creditData.map(item => (
-          <div className="my-12" key={item.id}>
-            <h2 className="mb-6">{item.category}</h2>
-            <ul className="list-disc">
-              {item.credits.map(item => (
-                <li key={item.title}>
-                  <Link className="capitalize text-blue-600 hover:text-blue-800 hover:underline" href={item.link} target="_blank">
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </section>
+    <main className="header-space">
+      <section>
+        <h1 className="mb-8 text-center">Credits </h1>
+        
+        <div className="mx-auto w-full md:w-1/2">
+          {creditData.map(item => (
+            <div className="my-12" key={item.id}>
+              <h2 className="mb-6">{item.category}</h2>
+              <ul className="list-disc">
+                {item.credits.map(item => (
+                  <li key={item.title}>
+                    <Link className="capitalize text-blue-600 hover:text-blue-800 hover:underline" href={item.link} target="_blank">
+                      {item.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
   )
 }

@@ -1,6 +1,12 @@
 import Hero from "@/components/shared/Hero";
 import Blogs from "./Blogs";
 import sanityService from "@/lib/sanityConfig";
+import { siteBlogPageDescription, siteBlogPageTitle } from "@/lib/config/siteConfig";
+
+export const metadata = {
+  title: siteBlogPageTitle,
+  description: siteBlogPageDescription
+}
 
 export default async function page() {
   const blogs = await sanityService.getAllBlogs("", `{
@@ -12,7 +18,7 @@ export default async function page() {
   }`);
 
   return (
-    <main>
+    <main className="header-space">
       <Hero heading="Blogs" />
       <Blogs data={blogs} />
     </main>

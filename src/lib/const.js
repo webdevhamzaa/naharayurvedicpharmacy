@@ -46,8 +46,8 @@ export const footerQuickLinks = [
   },
   {
     id: "fql3",
-    title: "Services",
-    href: "/services"
+    title: "blogs",
+    href: "/blogs"
   },
   {
     id: "fql4",
