@@ -3,12 +3,13 @@ import './globals.css'
 import Header from '@/components/layouts/Header';
 import Footer from '@/components/layouts/Footer';
 import Providers from '@/components/providers/Providers';
-import { siteDescription, siteName, siteTitle } from '@/lib/config/siteConfig';
+import { baseUrl, siteDescription, siteName, siteTitle } from '@/lib/config/siteConfig';
 
 const inter = Inter({ subsets: ['latin'] });
 const lora = Lora({ subsets: ['latin'], variable: '--font-lora' })
 
 export const metadata = {
+  url: baseUrl,
   title: {
     default: siteTitle,
     template: `%s - ${siteName}`

@@ -12,10 +12,11 @@ export default function Benefits() {
                 <div>
                     <Image
                         className="object-cover object-center rounded-md"
-                        width={800}
-                        height={450}
+                        width={320}
+                        height={180}
                         src="/images/common/3.jpg"
-                        alt="hero"
+                        alt="Ayurvedic titurants"
+                        loading="eager"
                     />
                 </div>
 

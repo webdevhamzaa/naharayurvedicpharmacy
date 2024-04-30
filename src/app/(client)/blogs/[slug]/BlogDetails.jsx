@@ -8,8 +8,8 @@ const myPortableTextComponents = {
         image: ({ value }) =>
             <Image
                 className="size-full object-cover object-center rounded-md overflow-hidden"
-                width={1600}
-                height={900}
+                width={160}
+                height={90}
                 src={sanityService.getImageUrl(value).width(400).url() || "/images/common/error.png"}
                 alt={""}
             />,

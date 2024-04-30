@@ -11,11 +11,11 @@ export default function History() {
                 {/* Images */}
                 <div className="md:col-span-3 lg:col-span-2 md:order-2">
                     <Image
-                        className="object-cover object-center rounded-md"
-                        width={600}
-                        height={800}
+                        className="object-cover w-full object-center rounded-md"
+                        width={180}
+                        height={240}
                         src="/images/team/mohan-nahar.png"
-                        alt="hero"
+                        alt="Founder Image"
                     />
                     <div className="mt-base text-center font-semibold italic">~Mohan Nahar</div>
                 </div>

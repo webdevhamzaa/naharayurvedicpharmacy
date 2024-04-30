@@ -10,9 +10,9 @@ export default function Overview() {
                 {/* Images */}
                 <div>
                     <Image
-                        className="object-cover object-center rounded-md"
-                        width={800}
-                        height={450}
+                        className="object-cover w-full object-center rounded-md"
+                        width={320}
+                        height={180}
                         src="/images/common/8.jpg"
                         alt="hero"
                     />

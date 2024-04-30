@@ -14,17 +14,20 @@ export async function generateStaticParams() {
 // Generate Metadata for dynamic pages
 export async function generateMetadata({ params: { slug } }) {
   const productData = products.find(item => item.id === slug)
-  const imageNo = productData.category && productData.category === "medicine" ? 1 : productData.category === "oil" ? 2 : 3
+
   if (!productData) return
+
+  const imageNo = productData.category && productData.category === "medicine" ? 1 : productData.category === "oil" ? 2 : 3
+
   return {
     title: `${productData.name} of`,
     description: productData.description,
     openGraph: {
-      images: [
-        {
-          url: `/images/products/${imageNo || 1}.jpg`
-        }
-      ]
+      images: `/images/products/${imageNo || 1}.jpg`
+    },
+    twitter: {
+      card: 'summary_large_image',
+      image: `/images/products/${imageNo || 1}.jpg`
     }
   }
 }

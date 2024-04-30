@@ -14,11 +14,12 @@ export default function Hero() {
             
             <div className="absolute inset-0 size-full -z-10">
                 <Image
-                    className="size-full object-cover object-center"
-                    width={1600}
-                    height={900}
+                    className="size-full object-cover object-center opacity-75"
+                    width={160}
+                    height={90}
                     src="/images/common/2.jpg"
-                    alt="hero"
+                    alt="Home page hero banner"
+                    loading="eager"
                 />
             </div>
         </section>

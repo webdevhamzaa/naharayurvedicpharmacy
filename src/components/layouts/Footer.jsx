@@ -32,6 +32,7 @@ export default function Footer() {
             <div className="mt-base flex gap-2">
               <Link className="hover:text-primary rounded overflow-hidden" href="https://www.instagram.com/" target="_blank">
                 <Instagram className="size-6" />
+                <span className="sr-only">Instagram Link</span>
               </Link>
             </div>
           </div>
@@ -58,7 +59,7 @@ export default function Footer() {
               <div>
                 <div>
                   <MapPin className="mr-1 size-4 inline" />
-                  <span className="uppercase text-xs text-primary tracking-wide">Location</span>
+                  <span className="uppercase font-semibold text-xs text-primary tracking-wide">Location</span>
                 </div>
                 <address className="mt-px block text-muted-foreground text-base">
                   <Link className="mt-px block text-muted-foreground text-base hover:underline hover:text-primary" href="https://maps.app.goo.gl/kDb522mFUSgCGrZY6" target="_blank">
@@ -71,7 +72,7 @@ export default function Footer() {
               <div>
                 <div>
                   <Mail className="mr-1 size-4 inline" />
-                  <span className="uppercase text-xs text-primary tracking-wide">Email</span>
+                  <span className="uppercase font-semibold text-xs text-primary tracking-wide">Email</span>
                 </div>
                 <Link className="mt-px block text-muted-foreground text-base hover:underline hover:text-primary" href="mailto:info@bugbusters.com">info@blossomgarder.com</Link>
               </div>
@@ -79,7 +80,7 @@ export default function Footer() {
               <div>
                 <div>
                   <Phone className="mr-1 size-4 inline" />
-                  <span className="uppercase text-xs text-primary tracking-wide">Phone No.</span>
+                  <span className="uppercase font-semibold text-xs text-primary tracking-wide">Phone No.</span>
                 </div>
                 <Link className="mt-px block text-muted-foreground text-base hover:underline hover:text-primary" href="tel:+123412341234">+1234 1234 1234</Link>
               </div>

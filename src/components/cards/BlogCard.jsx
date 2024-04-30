@@ -8,8 +8,8 @@ export default function BlogCard({ data: { thumbnail, title, slug, excerpt } }) 
             <div className="aspect-video overflow-hidden">
                 <Image
                     className="size-full aspect-video object-cover object-center"
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     src={sanityService.getImageUrl(thumbnail).width(400).url() ||"/images/common/error.png"}
                     alt="hero"
                 />

@@ -9,10 +9,10 @@ export default function ProductCard({ data: { id="id", name, benefits, category 
             <div className="relative aspect-square overflow-hidden">
                 <Image
                     className="size-full aspect-squrare object-cover object-center"
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     src={`/images/products/${imageNo || 1}.jpg`}
-                    alt="hero"
+                    alt={`${name} Image`}
                 />
                 <Badge className="absolute top-1 left-1 capitalize invisible group-hover:visible transition-all bg-backgroundLight text-green-800 rounded-sm">
                     {category || "category"}

@@ -6,8 +6,8 @@ export default function TeamMemberCard({ data: { imageUrl, name, position } }) {
             <div className="w-full flex-center rounded-full overflow-hidden">
                 <Image
                     className=" size-40 object-cover object-center rounded-full overflow-hidden"
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     src={imageUrl}
                     alt="hero"
                 />

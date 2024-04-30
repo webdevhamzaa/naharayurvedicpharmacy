@@ -2,6 +2,7 @@ import sanityService from "@/lib/sanityConfig";
 import BlogDetails from "./BlogDetails";
 import OtherBlogs from "./OtherBlogs";
 import { notFound } from "next/navigation";
+import { baseUrl } from "@/lib/config/siteConfig";
 
 // Catching routes for static renders
 export async function generateStaticParams() {
@@ -14,20 +15,25 @@ export async function generateStaticParams() {
 // Generate Metadata for dynamic pages
 export async function generateMetadata({ params: { slug } }) {
   const blogData = await sanityService.getBlogsBySlug(slug, `[0]{
-    title, excerpt,"thumbnail":content[_type=="image"][0]
+    title, slug, excerpt,"thumbnail":content[_type=="image"][0]
   }`);
 
   if (!blogData) return
+
   return {
+    // url: `baseUrl/${blogData.slug}`,
     title: `${blogData.title}, a blog by`,
     description: blogData.excerpt,
     openGraph: {
-      images: [
-        {
-          url: sanityService.getImageUrl(blogData.thumbnail).url()
-        }
-      ]
-    }
+      url: sanityService.getImageUrl(blogData.thumbnail).url()
+    },
+    // twitter: {
+    //   card: 'summary_large_image',
+    //   title: `${blogData.title}, a blog by`,
+    //   images: {
+    //     url: sanityService.getImageUrl(blogData.thumbnail).url(),
+    //   },
+    // },
   }
 }
 
@@ -51,10 +57,10 @@ export default async function page({ params: { slug } }) {
 
   if (!blogData) notFound()
 
-    return (
-      <main className="header-space">
-        <BlogDetails data={blogData} />
-        <OtherBlogs data={blogs} />
-      </main>
-    )
+  return (
+    <main className="header-space">
+      <BlogDetails data={blogData} />
+      <OtherBlogs data={blogs} />
+    </main>
+  )
 }

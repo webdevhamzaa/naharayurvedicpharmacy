@@ -11,11 +11,12 @@ export default function Hero({ heading, paragraph, imageUrl }) {
 
                 <div className="absolute inset-0 size-full -z-10">
                     <Image
-                        className="size-full object-cover object-center"
-                        width={800}
-                        height={450}
+                        className="size-full object-cover object-center opacity-75"
+                        width={160}
+                        height={90}
                         src={"/images/common/2.jpg"}
                         alt="Page Banner Image"
+                        loading="eager"
                     />
                 </div>
             </section>

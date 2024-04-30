@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main className="header-space">
       <Hero />
-      <Featured />
       <Benefits />
+      <Featured />
       <LatestProducts />
       <Blogs />
       {/* <About /> */}
