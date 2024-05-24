@@ -1,5 +1,5 @@
 
-export const benefitParagraph = "Discover Ayurveda's holistic approach to wellness. With natural ingredients and personalized treatments, it offers balance and harmony for your body, mind, and spirit."
+export const benefitParagraph = "Discover Nothing."
 
 export const benefitsLists = [
     {
