@@ -11,7 +11,7 @@ export default function Benefits() {
                 {/* Images */}
                 <div>
                     <Image
-                        className="object-cover object-center rounded-md"
+                        className="size-full object-cover object-center rounded-md"
                         width={320}
                         height={180}
                         src="/images/common/3.jpg"
